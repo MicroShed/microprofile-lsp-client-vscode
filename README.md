@@ -4,13 +4,13 @@ Provides language support for MicroProfile specifications in Java files, making 
 
 # How to Build 
 1. Clone [MicroProfile Language Server](https://github.com/MicroShed/microprofile-language-server)
-1. Clone [MicroProfile VS Code Client](https://github.com/MicroShed/microprofile-lsp-client-vscode)
+1. Clone [MicroProfile Language Support for VS Code](https://github.com/MicroShed/microprofile-lsp-client-vscode)
 1. From `microprofile-language-server` directory: `mvn clean package` to generate `microprofile-language-server-0.0.1-SNAPSHOT.jar`
 1. From `microprofile-lsp-client-vscode` directory: `npm install`
 1. Copy `microprofile-language-server/target/microprofile-language-server-0.0.1-SNAPSHOT.jar` to `microprofile-lsp-client-vscode/jars/` folder 
 
 ## To Package as Extension
-1. From microprofile-lsp-client-vscode dir: `vsce package` to generate `vscode-microprofile-0.0.1.vsix`
+1. From `microprofile-lsp-client-vscode` directory: `vsce package` to generate `vscode-microprofile-0.0.1.vsix`
 
 ## To Install Extension in VS Code
 1. Press Shift Command P to open the Command Palette 
