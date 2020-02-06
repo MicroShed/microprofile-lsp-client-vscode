@@ -1,0 +1,11 @@
+out
+server
+node_modules
+jars/*.jar
+*.vsix
+.DS_Store
+.vscode-test
+undefined
+target
+.scannerwork
+package-lock.json
