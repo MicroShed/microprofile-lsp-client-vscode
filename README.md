@@ -1,5 +1,7 @@
 # MicroProfile Language Support for VS Code
 
+⚠⚠ **This repository is deprecated! See [Tools for MicroProfile](https://github.com/redhat-developer/vscode-microprofile) instead.** ⚠⚠
+
 Provides language support for MicroProfile specifications in Java files, making use of the [MicroProfile Language Server](https://github.com/MicroShed/microprofile-language-server).
 
 ## Installation
